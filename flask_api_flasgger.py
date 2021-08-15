@@ -93,4 +93,4 @@ def predict_note_auth_from_file_path():
     return f'The predicted values are {list(predictions)}'
 
 if __name__=='__main__':
-    app.run()
+    app.run(host="0.0.0.0",port=5000)
